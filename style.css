@@ -106,28 +106,33 @@ body {
     background-color: red;
 } */
 
-#home-container {
+.home-container {
     width: 90vw;
     margin: auto;
 }
 
-#home-container>img {
-    width: 100px;
+.home-container>img {
+    width: 120px;
     border-radius: 100%;
+    margin-left: 30px;
     position: relative;
-    margin-left: -10px;
-    margin-top: 10px;
 }
 
 .home-text {
     position: relative;
-    margin-left: 100px;
+    margin-left: 200px;
     top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-text>h1 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: relative;
+    bottom: 190px;
+}
+
+.home-text>h2 {
     font-size: 20px;
     position: relative;
     bottom: 190px;
@@ -137,6 +142,7 @@ body {
     border: 2px dotted white;
     position: relative;
     bottom: 190px;
+    margin-right: 100px;
 }
 
 .player-short-desc {
@@ -166,7 +172,6 @@ body {
 #navbar-head-menu-active {
     color: var(--navbar-head-menu-active);
 }
-
 
 
 
@@ -202,11 +207,7 @@ body {
     }
 }
 
-@media screen and (min-width: 600px) {
-    body {}
 
-    
-}
 
 /* Medium */
 @media screen and (min-width: 426px) {
@@ -220,6 +221,10 @@ body {
         width: 220px;
     }
 }
+
+
+
+
 
 /* Large */
 @media screen and (min-width: 769px) {
@@ -239,11 +244,9 @@ body {
         display: none;
     }
 
-    #home-container>img {
+    .home-container>img {
         width: 200px;
         border-radius: 100%;
-        position: relative;
-        margin-top: 30px;
     }
 
     .home-text {
@@ -253,9 +256,13 @@ body {
     }
 
     .home-text>h1 {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 36px;
+        position: relative;
+        bottom: 190px;
+    }
+
+    .home-text>h2 {
+        font-size: 30px;
         position: relative;
         bottom: 190px;
     }
@@ -268,7 +275,7 @@ body {
 
     .player-short-desc {
         position: relative;
-        bottom: 170px;
+        bottom: 150px;
         background-color: rgb(0, 60, 112);
         color: white;
         font-size: 23px;
