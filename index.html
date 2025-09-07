@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>InfiniteCodeX Craftfolio</title>
 
+    <link rel="icon" type="image/x-icon" href="img/navbar/navbar-header/craftfolio-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -16,12 +18,25 @@
             <h1>Craftfolio</h1>
         </div>
         <div class="navbar-menu">
-            <p id="navbar-head-menu-active">Home</p>
-            <p class="">About</p>
-            <p class="">Skill</p>
-            <p class="">Creation</p>
-            <p class="">Achievement</p>
-            <p class="">Friends</p>
+            <div id="navbar-head-menu-active">
+                <p>Home</p>
+                <div class="menu-line"></div>
+            </div>
+            <div id="">
+                <p>About</p>
+            </div>
+            <div id="">
+                <p>Skill</p>
+            </div>
+            <div id="">
+                <p>Creation</p>
+            </div>
+            <div id="">
+                <p>Achievement</p>
+            </div>
+            <div id="">
+                <p>Friends</p>
+            </div>
         </div>
     </nav>
     <br /><br /><br /><br /><br />
@@ -48,69 +63,77 @@
     <br><br><br><br>
     <div class="pagetitle">
         <h1>About Me</h1>
+        <div class="about-container-line"></div>
     </div>
     <br><br>
 
     <section class="aboutpage">
-        <div class="about-container1">
-            <div class="abt-grid-container1">
-                <h2>My Attitude</h2>
-                <div class="about-container-line"></div>
-                <p>
-                    I'am a very chill Minecraft player, so that i did'nt get
-                    angry easily even if i got trolled with my own friends. Also,
-                    I likes to help others as quickly as i could everytime
-                    when they are needed something, especially if they are
-                    needed some materials or items.
-                </p>
-            </div>
-            <div>
-                <h2>Average Time Spent</h2>
-                <div class="about-container-line"></div>
-                <p>
-                    On weekdays, I spent 2 hours each day by playing Minecraft.
-                    While on the weekends, I always spent around 4-5 hours each day.
-                    I like to play this game on Survival Mode, it's because there
-                    are so many challenges on this mode and that makes me possible
-                    to playing this game much longer, especially when i playing on this
-                    mode with my friends.
-                </p>
-            </div>
-            <div>
-                <h2>Funfacts</h2>
-                <div class="about-container-line"></div>
-                <ul style="padding: 25px; text-align: justify;">
-                    <li>
-                        I always die while on the Nether
-                    </li>
-                    <li>
-                        I hate creepers
-                    </li>
-                    <li>
-                        I like to farming some crops and also breeding my own
-                        animal farms until our world or server becomes lagged
-                        because there are so many of them.
-                    </li>
-                </ul>
-            </div>
+        <div class="about-container1 about-container">
+            <p>
+                I'am a very chill Minecraft Bedrock player, so that i did'nt get
+                angry easily even if i got trolled with my own friends. Also,
+                everytime they are needed on something, I'm gladly helping them
+                as quickly as i can especially if they are needed some
+                materials or items.
+            </p>
+            <p>
+                On weekdays, I spent 2 hours each day by playing Minecraft.
+                While on the weekends, I always spent around 4-5 hours each day.
+                I like to play this game on Survival Mode, it's because there
+                are so many challenges on this mode and that makes me possible
+                to playing this game much longer, especially when i playing on this
+                mode with my friends.
+            </p>
         </div>
-        <div class="about-container2">
+        <div class="about-container2 about-container">
             <h2>My Minecraft Skin</h2>
-            <div><img src="" alt="Front" /></div>
-            <div><img src="" alt="Side 1" /></div>
-            <div><img src="" alt="Side 2" /></div>
-            <div><img src="" alt="Back" /></div>
+            <br />
+            <div class="container2-img">
+                <img src="img/about/front.png" alt="Front" />
+                <img src="img/about/right-side.png" alt="Right Side" />
+                <img src="img/about/back.png" alt="Back" />
+                <img src="img/about/left-side.png" alt="Left Side" />
+            </div>
+            <br />
             <p>
-                This is my own minecraft skin that i uses on any server, world,
-                and realm.
+                This is my own minecraft skin that i used on any servers,
+                worlds, and realms.
             </p>
-            <p>
-                Feel free to use it :D.
-            </p>
+            <div class="skin-container">
+                <p>
+                    Feel free to use it :D.
+                </p>
+                <button class="download-skin"><i class="fa fa-download"></i>
+                    <a href="https://textures.minecraft.net/texture/66a3276ca93b4b179a14b093bfc3c9a8b7187fbd83bdc52a4c67b21344643ce0"
+                        download target="_blank">Download</a>
+                </button>
+                <!-- <div class="download-skin">
+                    <p>
+                        <a href="https://textures.minecraft.net/texture/66a3276ca93b4b179a14b093bfc3c9a8b7187fbd83bdc52a4c67b21344643ce0"
+                        download="">Download skin</a>
+                    </p>
+                </div> -->
+            </div>
         </div>
-        <div class="about-container3">
-            <h2>Meet</h2>
-            <h2>My Favorite Item !</h2>
+        <div class="about-container3 about-container">
+            <h2>Meet...</h2>
+            <h2 style="font-size: 26px;">My Favorite Item !</h2>
+            <br />
+            <div class="container3">
+                <div>
+                    <img src="img/about/favorite-item.png" alt="" class="container3-image">
+                </div>
+                <div>
+                    <h3>Sugar Cane</h3>
+                    <p style="text-align: justify;">
+                        The only reason I like sugar cane
+                        it's because this item is very helpful.
+                        This item is also the main source
+                        of getting an enchanted book quickly
+                        on Minecraft.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
