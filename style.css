@@ -213,10 +213,6 @@ body {
     border: 2px solid blue;
 }
 
-.abt-grid-container1 {
-    grid-column: span 2;
-}
-
 .about-container1>div>h2 {
     text-align: center;
 }
