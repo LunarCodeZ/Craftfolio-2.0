@@ -19,3 +19,5 @@ function activePage() {
 }
 
 activePage();
+
+/* Animation for skillpage */
