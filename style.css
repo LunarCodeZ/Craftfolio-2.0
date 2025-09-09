@@ -268,6 +268,45 @@ body {
 
 
 
+/* Skill Page */
+.skillpage {
+    
+}
+
+.skill-container {
+    margin: 30px;
+    border: 2px solid blue;
+    background-image: linear-gradient(to bottom right, rgb(0, 174, 180), black);
+    padding: 60px 30px 5px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.skill-container > div {
+    /* border: 2px solid black; */
+}
+
+.skill-container > div > img {
+    width: 100px;
+    opacity: 85%;
+}
+
+.skill-container > div > h2 {
+    color: rgb(0, 229, 255);
+}
+
+.skill-container > div > p {
+    text-align: justify;
+}
+
+.skill-text {
+    padding-right: 50px;
+}
+
+
+
 
 
 
@@ -288,7 +327,8 @@ body {
 
 .about-container:hover {
     background-color: rgb(0, 189, 218);
-    transform: translateX(-10px);
+    margin: -15px;
+    padding: 45px;
     color: black;
 }
 
