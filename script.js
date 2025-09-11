@@ -20,6 +20,12 @@ function activePage() {
 
 activePage();
 
+/* Animation for aboutpage */
+
+function animatedFavItem() {
+    document.getElementById("favitem").style.color = "red";
+}
+
 /* Animation for skillpage */
 
 var skillCounter = 0;

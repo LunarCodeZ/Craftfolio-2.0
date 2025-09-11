@@ -273,7 +273,7 @@ body {
     margin: 30px;
     border: 2px solid blue;
     background-image: linear-gradient(to bottom right, rgb(0, 174, 180), black);
-    /* padding: 60px 30px 5px 20px; */
+    padding: 60px 30px 5px 20px;
     transition: 0.5s;
 }
 
@@ -282,6 +282,7 @@ body {
     flex-direction: row-reverse;
     align-items: end;
     justify-content: space-between;
+    margin: 0 0 0 20px;
 }
 
 .skill-container > div {
@@ -303,16 +304,6 @@ body {
 
 .skill-text {
     padding-right: 50px;
-}
-
-.skill-placeholder {
-    border: 2px solid white;
-    border-radius: 100% 0 0 0;
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    position: relative;
-    top: 150px;
 }
 
 
