@@ -106,13 +106,13 @@
                 </button>
             </div>
         </div>
-        <div class="about-container3 about-container" onmouseenter="animatedFavItem()">
+        <div class="about-container3 about-container" onmouseenter="animatedFavItem()" onmouseleave="unanimatedFavItem()">
             <h2>Meet...</h2>
             <h2 style="font-size: 26px">My Favorite Item !</h2>
             <br />
             <div class="container3">
                 <div>
-                    <img src="img/about/favorite-item.png" alt="" class="container3-image" />
+                    <img src="img/about/favorite-item.png" alt="" class="container3-image" id="favitemicon" />
                 </div>
                 <div>
                     <h3>Sugar Cane</h3>
@@ -149,129 +149,149 @@
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/iron-speedrunner.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Iron Speedrunner</h2>
-                <p>
-                    I could get a full set of iron gears in just one day.
-                </p>
-            </div>
-        </div>
-        <div class="skill-container">
-            <div>
-                <img src="img/skill/enchanter.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Enchanter</h2>
-                <p>
-                    I could enchant and make up to 3 level-3 enchanted books or items each
-                    day.
-                </p>
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/iron-speedrunner.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Iron Speedrunner</h2>
+                    <p>
+                        I could get a full set of iron gears in just one day.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/food-supplier.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Food Supplier</h2>
-                <p>
-                    Right after i had build my own animal farms on Minecraft. I could get
-                    at least 4 stacks of different food on each day.
-                </p>
-            </div>
-        </div>
-        <div class="skill-container">
-            <div>
-                <img src="img/skill/quick-farmer.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Quick Farmer</h2>
-                <p>
-                    I'am very likes to do farming, so that i could make a simple farm
-                    starter and then enlarges it on each day.
-                </p>
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/enchanter.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Enchanter</h2>
+                    <p>
+                        I could enchant and make up to 3 level-3 enchanted books or items each
+                        day.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/automatic-farmer.jpg" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Automatic Farmer</h2>
-                <p>
-                    I could make almost any automatic farm using redstones and then
-                    finishes it quickly.
-                </p>
-            </div>
-        </div>
-        <div class="skill-container">
-            <div>
-                <img src="img/skill/rapid-deforester.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Rapid Deforester</h2>
-                <p>
-                    I could swept away any large forests in just a few minutes.
-                </p>
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/food-supplier.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Food Supplier</h2>
+                    <p>
+                        Right after i had build my own animal farms on Minecraft. I could get
+                        at least 4 stacks of different food on each day.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/cave-miner.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Cave Miner</h2>
-                <p>
-                    I'm very addicted to mining, so that I could mine longer on
-                    underground and exposes more valuable ores underneath.
-                </p>
-            </div>
-        </div>
-        <div class="skill-container">
-            <div>
-                <img src="img/skill/veteran-gamer.png" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Veteran Gamer</h2>
-                <p>
-                    I almost known everything about Minecraft, from it's blocks, items,
-                    and even their mobs behavior.
-                </p>
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/quick-farmer.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Quick Farmer</h2>
+                    <p>
+                        I'am very likes to do farming, so that i could make a simple farm
+                        starter and then enlarges it on each day.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/command-elite.gif" alt="">
-            </div>
-            <div class="skill-text">
-                <h2>Command Elite</h2>
-                <p>
-                    Minecraft commands and command blocks are the main reasons that i like
-                    this game. So that, I'am very great at making a simple projects by
-                    using Command Blocks in Minecraft.
-                </p>
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/automatic-farmer.jpg" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Automatic Farmer</h2>
+                    <p>
+                        I could make almost any automatic farm using redstones and then
+                        finishes it quickly.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="skill-container">
-            <div>
-                <img src="img/skill/friendly-gamer-3.png" alt="">
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/rapid-deforester.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Rapid Deforester</h2>
+                    <p>
+                        I could swept away any large forests in just a few minutes.
+                    </p>
+                </div>
             </div>
-            <div class="skill-text">
-                <h2>Friendly Gamer</h2>
-                <p>
-                    I'am very chill at anything, especially when playing Minecraft, it's
-                    because I'am playing this game just for fun :)
-                </p>
+        </div>
+        <div class="skill-container">
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/cave-miner.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Cave Miner</h2>
+                    <p>
+                        I'm very addicted to mining, so that I could mine longer on
+                        underground and exposes more valuable ores underneath.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/veteran-gamer.png" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Veteran Gamer</h2>
+                    <p>
+                        I almost known everything about Minecraft, from it's blocks, items,
+                        and even their mobs behavior.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/command-elite.gif" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Command Elite</h2>
+                    <p>
+                        Minecraft commands and command blocks are the main reasons that i like
+                        this game. So that, I'am very great at making a simple projects by
+                        using Command Blocks in Minecraft.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill-content">
+                <div>
+                    <img src="img/skill/friendly-gamer-3.png" alt="">
+                </div>
+                <div class="skill-text">
+                    <h2>Friendly Gamer</h2>
+                    <p>
+                        I'am very chill at anything, especially when playing Minecraft, it's
+                        because I'am playing this game just for fun :)
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <div class="pagetitle">
-        <h1>My Skills</h1>
+        <h1>My Creations</h1>
         <div class="about-container-line"></div>
     </div>
     <br /><br />

@@ -23,7 +23,13 @@ activePage();
 /* Animation for aboutpage */
 
 function animatedFavItem() {
-    document.getElementById("favitem").style.color = "red";
+    document.getElementById("favitemicon").style.width = "140px";
+    document.getElementById("favitemicon").style.animation = "myfavitem 4s infinite";
+}
+
+function unanimatedFavItem() {
+    document.getElementById("favitemicon").style.width = "100px";
+    document.getElementById("favitemicon").style.animation = "";
 }
 
 /* Animation for skillpage */

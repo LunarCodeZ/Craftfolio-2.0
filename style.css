@@ -176,7 +176,7 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     display: grid;
-    grid: 1fr / 1fr / 1fr;
+    grid: 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -239,6 +239,7 @@ body {
 
 .container3-image {
     width: 100px;
+    transition: 1s;
 }
 
 .skin-container {
@@ -265,9 +266,7 @@ body {
 
 
 /* Skill Page */
-.skillpage {
-    
-}
+.skillpage {}
 
 .skill-container {
     margin: 30px;
@@ -285,20 +284,20 @@ body {
     margin: 0 0 0 20px;
 }
 
-.skill-container > div {
+.skill-container>div {
     /* border: 2px solid black; */
 }
 
-.skill-content > div > img {
+.skill-content>div>img {
     width: 100px;
-    opacity: 85%;
+    opacity: 45%;
 }
 
-.skill-content > div > h2 {
+.skill-content>div>h2 {
     color: rgb(0, 229, 255);
 }
 
-.skill-content > div > p {
+.skill-content>div>p {
     text-align: justify;
 }
 
@@ -346,6 +345,15 @@ body {
 
 .skill-container:hover {
     color: red;
+}
+
+
+
+/* Keyframes */
+@keyframes myfavitem {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
 }
 
 
@@ -505,6 +513,10 @@ body {
     .about-container:hover {
         transform: translateY(-20px);
     }
+
+
+    
+    
 
 
     /* .pagetitle {
