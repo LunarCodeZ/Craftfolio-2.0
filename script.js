@@ -21,3 +21,5 @@ function activePage() {
 activePage();
 
 /* Animation for skillpage */
+
+var skillCounter = 0;

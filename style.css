@@ -273,7 +273,11 @@ body {
     margin: 30px;
     border: 2px solid blue;
     background-image: linear-gradient(to bottom right, rgb(0, 174, 180), black);
-    padding: 60px 30px 5px 20px;
+    /* padding: 60px 30px 5px 20px; */
+    transition: 0.5s;
+}
+
+.skill-content {
     display: flex;
     flex-direction: row-reverse;
     align-items: end;
@@ -284,21 +288,31 @@ body {
     /* border: 2px solid black; */
 }
 
-.skill-container > div > img {
+.skill-content > div > img {
     width: 100px;
     opacity: 85%;
 }
 
-.skill-container > div > h2 {
+.skill-content > div > h2 {
     color: rgb(0, 229, 255);
 }
 
-.skill-container > div > p {
+.skill-content > div > p {
     text-align: justify;
 }
 
 .skill-text {
     padding-right: 50px;
+}
+
+.skill-placeholder {
+    border: 2px solid white;
+    border-radius: 100% 0 0 0;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    position: relative;
+    top: 150px;
 }
 
 
@@ -337,6 +351,10 @@ body {
     border: 2px double rgb(151, 229, 255);
     position: relative;
     bottom: 20px;
+}
+
+.skill-container:hover {
+    color: red;
 }
 
 
