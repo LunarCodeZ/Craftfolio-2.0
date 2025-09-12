@@ -4,5 +4,6 @@ Inside this repository, you'd find my Minecraft Profile to be used as a template
 Changelogs
 
 
-V1.0 : Initial commit
+V1.0 : Initial commit <br>
 V1.1 : Added Home Page
+
