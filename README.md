@@ -5,5 +5,7 @@ Changelogs
 
 
 V1.0 : Initial commit <br>
-V1.1 : Added Home Page
+V1.1 : Added Home Page <br>
+V1.2 : Added About Page <br>
+
 
