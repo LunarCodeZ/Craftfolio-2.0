@@ -83,14 +83,14 @@
                 longer, especially when i playing on this mode with my friends.
             </p>
         </div>
-        <div class="about-container2 about-container">
+        <div class="about-container2 about-container" onmouseenter="animatedSkin()" onmouseleave="unanimatedSkin()">
             <h2>My Minecraft Skin</h2>
             <br />
             <div class="container2-img">
-                <img src="img/about/front.png" alt="Front" />
-                <img src="img/about/right-side.png" alt="Right Side" />
-                <img src="img/about/back.png" alt="Back" />
-                <img src="img/about/left-side.png" alt="Left Side" />
+                <img src="img/about/front.png" alt="Front" class="target-skin"/>
+                <img src="img/about/right-side.png" alt="Right Side" class="hide-skin"/>
+                <img src="img/about/back.png" alt="Back" class="hide-skin" />
+                <img src="img/about/left-side.png" alt="Left Side" class="hide-skin" />
             </div>
             <br />
             <p>
@@ -118,7 +118,7 @@
                     <h3>Sugar Cane</h3>
                     <p style="text-align: justify">
                         The only reason I like sugar cane it's because this item is very
-                        helpful. This item is also the main source of getting an enchanted
+                        helpful. Also, it's one of the faster method to getting an enchanted
                         book quickly on Minecraft.
                     </p>
                 </div>
@@ -134,138 +134,138 @@
     <br /><br />
 
     <section class="skillpage">
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(1)" onmouseleave="skillunhover(1)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/semi-speedrunner.gif" alt="">
+                    <img src="img/skill/semi-speedrunner.gif" alt="" id="skill-img1">
                 </div>
                 <div class="skill-text">
-                    <h2>Semi-Speedrunner</h2>
-                    <p>
-                        I could find up to 5 diamonds and creates a Nether Portal in around 3
+                    <h2 id="skill-title1">Semi-Speedrunner</h2>
+                    <p id="skill-description1">
+                        I could find up to 5 diamonds and creates a Nether Portal on around 3
                         in-game days or 60 minutes.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(2)" onmouseleave="skillunhover(2)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/iron-speedrunner.gif" alt="">
+                    <img src="img/skill/iron-speedrunner.gif" alt="" id="skill-img2">
                 </div>
                 <div class="skill-text">
-                    <h2>Iron Speedrunner</h2>
-                    <p>
+                    <h2 id="skill-title2">Iron Speedrunner</h2>
+                    <p id="skill-description2">
                         I could get a full set of iron gears in just one day.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(3)" onmouseleave="skillunhover(3)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/enchanter.gif" alt="">
+                    <img src="img/skill/enchanter.gif" alt="" id="skill-img3">
                 </div>
                 <div class="skill-text">
-                    <h2>Enchanter</h2>
-                    <p>
+                    <h2 id="skill-title3">Enchanter</h2>
+                    <p id="skill-description3">
                         I could enchant and make up to 3 level-3 enchanted books or items each
                         day.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(4)" onmouseleave="skillunhover(4)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/food-supplier.gif" alt="">
+                    <img src="img/skill/food-supplier.gif" alt="" id="skill-img4">
                 </div>
                 <div class="skill-text">
-                    <h2>Food Supplier</h2>
-                    <p>
+                    <h2 id="skill-title4">Food Supplier</h2>
+                    <p id="skill-description4">
                         Right after i had build my own animal farms on Minecraft. I could get
                         at least 4 stacks of different food on each day.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(5)" onmouseleave="skillunhover(5)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/quick-farmer.gif" alt="">
+                    <img src="img/skill/quick-farmer.gif" alt="" id="skill-img5">
                 </div>
                 <div class="skill-text">
-                    <h2>Quick Farmer</h2>
-                    <p>
+                    <h2 id="skill-title5">Quick Farmer</h2>
+                    <p id="skill-description5">
                         I'am very likes to do farming, so that i could make a simple farm
                         starter and then enlarges it on each day.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(6)" onmouseleave="skillunhover(6)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/automatic-farmer.jpg" alt="">
+                    <img src="img/skill/automatic-farmer.jpg" alt="" id="skill-img6">
                 </div>
                 <div class="skill-text">
-                    <h2>Automatic Farmer</h2>
-                    <p>
+                    <h2 id="skill-title6">Automatic Farmer</h2>
+                    <p id="skill-description6">
                         I could make almost any automatic farm using redstones and then
                         finishes it quickly.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(7)" onmouseleave="skillunhover(7)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/rapid-deforester.gif" alt="">
+                    <img src="img/skill/rapid-deforester.gif" alt="" id="skill-img7">
                 </div>
                 <div class="skill-text">
-                    <h2>Rapid Deforester</h2>
-                    <p>
+                    <h2 id="skill-title7">Rapid Deforester</h2>
+                    <p id="skill-description7">
                         I could swept away any large forests in just a few minutes.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(8)" onmouseleave="skillunhover(8)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/cave-miner.gif" alt="">
+                    <img src="img/skill/cave-miner.gif" alt="" id="skill-img8">
                 </div>
                 <div class="skill-text">
-                    <h2>Cave Miner</h2>
-                    <p>
+                    <h2 id="skill-title8">Cave Miner</h2>
+                    <p id="skill-description8">
                         I'm very addicted to mining, so that I could mine longer on
                         underground and exposes more valuable ores underneath.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(9)" onmouseleave="skillunhover(9)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/veteran-gamer.png" alt="">
+                    <img src="img/skill/veteran-gamer.png" alt="" id="skill-img9">
                 </div>
                 <div class="skill-text">
-                    <h2>Veteran Gamer</h2>
-                    <p>
+                    <h2 id="skill-title9">Veteran Gamer</h2>
+                    <p id="skill-description9">
                         I almost known everything about Minecraft, from it's blocks, items,
                         and even their mobs behavior.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(10)" onmouseleave="skillunhover(10)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/command-elite.gif" alt="">
+                    <img src="img/skill/command-elite.gif" alt="" id="skill-img10">
                 </div>
                 <div class="skill-text">
-                    <h2>Command Elite</h2>
-                    <p>
+                    <h2 id="skill-title10">Command Elite</h2>
+                    <p id="skill-description10">
                         Minecraft commands and command blocks are the main reasons that i like
                         this game. So that, I'am very great at making a simple projects by
                         using Command Blocks in Minecraft.
@@ -273,14 +273,14 @@
                 </div>
             </div>
         </div>
-        <div class="skill-container">
+        <div class="skill-container" onmouseenter="skillhover(11)" onmouseleave="skillunhover(11)">
             <div class="skill-content">
                 <div>
-                    <img src="img/skill/friendly-gamer-3.png" alt="">
+                    <img src="img/skill/friendly-gamer-3.png" alt="" id="skill-img11">
                 </div>
                 <div class="skill-text">
-                    <h2>Friendly Gamer</h2>
-                    <p>
+                    <h2 id="skill-title11">Friendly Gamer</h2>
+                    <p id="skill-description11">
                         I'am very chill at anything, especially when playing Minecraft, it's
                         because I'am playing this game just for fun :)
                     </p>

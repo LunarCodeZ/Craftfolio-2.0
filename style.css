@@ -5,7 +5,7 @@ html {
 :root {
     /* Navbar Designs */
     --navbar-head-color: rgb(0, 128, 213);
-    --navbar-head-height: 50px;
+    --navbar-head-height: 60px;
     --navbar-head-logo-width: 40px;
     --navbar-head-logo-margin: 5px 0 5px 20px;
 
@@ -41,8 +41,10 @@ body {
 }
 
 .navheader>img {
+    position: relative;
     width: var(--navbar-head-logo-width);
     margin: var(--navbar-head-logo-margin);
+    top: 5px;
 }
 
 .navheader>h1 {
@@ -271,7 +273,7 @@ body {
 .skill-container {
     margin: 30px;
     border: 2px solid blue;
-    background-image: linear-gradient(to bottom right, rgb(0, 174, 180), black);
+    background-image: linear-gradient(to bottom right, rgb(0, 188, 194), rgb(0, 42, 43));
     padding: 60px 30px 5px 20px;
     transition: 0.5s;
 }
@@ -289,16 +291,21 @@ body {
 }
 
 .skill-content>div>img {
-    width: 100px;
+    width: 80px;
     opacity: 45%;
+    transition: 0.5s;
 }
 
 .skill-content>div>h2 {
     color: rgb(0, 229, 255);
+    font-size: 25px;
+    transition: 0.5s;
 }
 
 .skill-content>div>p {
     text-align: justify;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .skill-text {
@@ -344,16 +351,38 @@ body {
 }
 
 .skill-container:hover {
-    color: red;
+    margin: 10px;
+    padding-top: 50px;
 }
+
+
 
 
 
 /* Keyframes */
 @keyframes myfavitem {
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(20px);}
-    100% {transform: translateY(0px);}
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes skillimage {
+    from {
+        width: 80px;
+        opacity: 45%;
+    }
+    to {
+        width: 120px;
+        opacity: 100%;
+    }
 }
 
 
@@ -515,8 +544,13 @@ body {
     }
 
 
-    
-    
+
+    /* Skill Page */
+
+
+
+
+
 
 
     /* .pagetitle {
@@ -524,4 +558,22 @@ body {
         padding-top: var(--pagetitle-padding-pc);
         padding-bottom: var(--pagetitle-padding-pc);
     } */
+}
+
+@media screen and (min-width: 830px) {
+
+    .skillpage {
+        display: grid;
+        grid: 1fr / 1fr 1fr;
+    }
+
+    .skill-container {
+        /* margin: 30px; */
+    }
+
+    .skill-container:hover {
+        margin-top: 10px;
+        padding-top: 100px;
+    }
+
 }
